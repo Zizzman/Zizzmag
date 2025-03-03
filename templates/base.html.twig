@@ -1,0 +1,17 @@
+{# templates/base.html.twig #}
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}Titre par défaut{% endblock %}</title>
+</head>
+<body>
+    <header>
+        <h1>Mon Site Symfony</h1>
+    </header>
+    <main>
+    <p>JE TAIME FLO</p>
+        {% block content %}{% endblock %}
+    </main>
+</body>
+</html>
